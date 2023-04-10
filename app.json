@@ -59,9 +59,9 @@
             "value":"ʀᴀɢᷨᴀͦɴͭᴏʀᴋ;ʀᴀɢᷨᴀͦɴͭᴏʀᴋ;https://2.img-dpreview.com/files/p/E~C1000x0S4000x4000T1200x1200~articles/3925134721/0266554465.jpeg"
         },
         "MODE": {
-            "description": "Private or public",
+            "description": "خاص او عام",
             "required": true,
-            "value":"private"
+            "value":"خاص"
         },
         "SUDO": {
             "description": "These numbers can control your bot. seperate with commas",
