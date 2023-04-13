@@ -44,7 +44,7 @@ Module({
     return await message.send("_Chat cleared!_")  
 }));
     Module({
-    pattern: 'kick ?(.*)',
+    pattern: 'طرد ?(.*)',
     fromMe: true,
     desc: Lang.KICK_DESC,
     use: 'group'
@@ -90,7 +90,7 @@ Module({
     await message.client.groupParticipantsUpdate(message.jid, [user], "remove")
 }))
 Module({
-    pattern: 'add ?(.*)',
+    pattern: 'اضافة ?(.*)',
     fromMe: true,
     desc: Lang.ADD_DESC,
     use: 'group'
